@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <div class="container__wrapper">
+      <div class="container">
+        <header class="header">
+          <h1 class="header__title">Checkout</h1>
+        </header>
+        <main class="main">
+          <div class="section__left">
+            <div class="contact">
+              <h2 class="section__left__title">Contact infomation</h2>
+              <div class="items">
+                <div class="item">
+                  <p class="label" for="">E-mail</ｐ>
+                  <div class="item__wrapper">
+                    <span class="material-icons input__text__icon"> mail_outline </span>
+                    <input
+                      class="input__text"
+                      type="text"
+                      placeholder="Enter your email..."
+                    />
+                  </div>
+                </div>
+                <div class="item">
+                  <p class="label" for="">Phone</ｐ>
+                  <div class="item__wrapper">
+                    <span class="material-icons input__text__icon"> phone </span>
+                    <input
+                      class="input__text"
+                      type="text"
+                      placeholder="Enter your phone..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shipping">
+              <h2 class="section__left__title">Shipping address</h2>
+              <div class="items">
+                <div class="item">
+                  <p class="label" for="">Full name</ｐ>
+                  <div class="item__wrapper">
+                    <span class="material-icons input__text__icon"> account_circle </span>
+                    <input
+                      class="input__text"
+                      type="text"
+                      placeholder="Rodney Cotton"
+                    />
+                  </div>
+                </div>
+                <div class="item">
+                  <p class="label" for="">Address</ｐ>
+                  <div class="item__wrapper">
+                    <span class="material-icons input__text__icon"> home </span>
+                    <input
+                      class="input__text"
+                      type="text"
+                      placeholder="Your address.."
+                    />
+                  </div>
+                </div>
+                <div class="item">
+                  <p class="label" for="">City</ｐ>
+                  <div class="item__wrapper">
+                    <span class="material-icons input__text__icon"> location_city </span>
+                    <input
+                      class="input__text"
+                      type="text"
+                      placeholder="Your city.."
+                    />
+                  </div>
+                </div>
+                <div class="item__wrapper">
+                  <div class="item">
+                    <p class="label">Country</p>
+                    <div class="item__wrapper">
+                      <span class="material-icons input__text__icon"> public </span>
+                      <input
+                        class="input__text input__half__size"
+                        type="text"
+                        placeholder="Your country.."
+                      />
+                    </div>
+                  </div>
+                  <div class="item">
+                    <p class="label">Postal code</p>
+                    <div class="item__wrapper">
+                      <span class="material-icons input__text__icon"> markunread_mailbox </span>
+                      <input
+                        class="input__text input__half__size"
+                        type="text"
+                        placeholder="Your postal code.."
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" name="description" id="description">
+                  <label for="description" class="cb">Save this information for next time</label>
+                </div>
+                <div class="item__wrapper end">
+                  <a href="#" class="btn">Continue</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section__right">
+            <div class="cart">
+              <div class="cart__items">
+                <div class="cart__item">
+                  <div class="cart__item__image">
+                    <img src="./img/photo1.png" alt="" class="photo">
+                  </div>
+                  <div class="cart__item__contents">
+                    <h2 class="cart__item__title">Vintage Backbag</h2>
+                    <p class="cart__item__price">$54.99 <span class="price">$54.99</span></p>
+                    <div class="amount__box">
+                      <div class="material-icons add"></div>
+                      <div class="amount">99999</div>
+                      <div class="material-icons remove"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart__item">
+                  <div class="cart__item__image">
+                    <img src="./img/photo2.png" alt="" class="photo">
+                  </div>
+                  <div class="cart__item__contents">
+                    <h2 class="cart__item__title">Levi Shoes</h2>
+                    <p class="cart__item__price">$74.99<span class="price">$124.99</span></p>
+                    <div class="amount__box">
+                      <div class="material-icons add"></div>
+                      <div class="amount">99999</div>
+                      <div class="material-icons remove"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper">
+                <div class="ship">
+                  <p class="cart__title">Shipping</p>
+                  <p class="cart__price">$19</p>
+                </div>
+                <div class="total">
+                  <p class="cart__title">Total</p>
+                  <p class="cart__price">$148.98</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="footer">
+          <p>nodokaodayaka @ DevChallenges.io</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
